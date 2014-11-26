@@ -1,0 +1,10 @@
+button {
+  color: $default-text-colour;
+  background-color: $ui-background;
+  border-radius: $ui-border-radius;
+  border: $ui-border;
+  padding: $baseline-unit*2;
+  &:hover {
+    background-color: $ui-background-alt;
+  }
+}
