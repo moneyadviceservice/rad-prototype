@@ -1,0 +1,73 @@
+.result {
+  overflow: hidden;
+  margin: $baseline-unit*4 0;
+  padding: $baseline-unit*4;
+  background-color: $ui-background-alt;
+}
+
+.result__image {
+  float: left;
+  width: 200px;
+  height: 266px;
+  background-color: $ui-background;
+  margin-right: $baseline-unit*4;
+}
+
+.result__heading {
+  float: left;
+  margin-top: 0;
+}
+
+.result__auth-text {
+  float: right;
+  margin-top: 5px;
+}
+
+.result__match-graph {
+  position: relative;
+  overflow: hidden;
+  background-color: $white;
+  clear: both;
+  margin: $baseline-unit*4 0;
+  padding: $baseline-unit*2;
+}
+
+.result__match-location {
+  margin: 0;
+  margin-bottom: $baseline-unit*2;
+}
+
+.result__match-graph-text {
+  position: absolute;
+  top: 60px;
+  left: 100px;
+}
+
+.result__match-graph-bg {
+  height: 50px;
+  width: 100%;
+  background-color: $ui-background;
+}
+
+.result__match-graph-fg {
+  height: 50px;
+  width: 72%;
+  position: absolute;
+  background-color: $ui-foreground;
+  top: 48px;
+}
+
+.result__button {
+  margin-right: $baseline-unit*4;
+}
+
+.result__info-container {
+  width: 100%;
+  max-width: 900px;
+  float: left;
+}
+
+.result__match-link {
+  margin-top: $baseline-unit*2;
+  float: right;
+}

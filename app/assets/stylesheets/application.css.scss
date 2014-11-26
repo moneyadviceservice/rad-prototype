@@ -17,6 +17,7 @@ $responsive: true;
 @import 'layouts/main';
 @import 'layouts/header';
 @import 'layouts/info_page';
+@import 'layouts/search_results_page';
 
 @import 'components/breadcrumbs';
 @import 'components/horizontal_rule';
@@ -24,3 +25,4 @@ $responsive: true;
 @import 'components/filter_button';
 @import 'components/filter';
 @import 'components/info_block';
+@import 'components/result';

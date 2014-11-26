@@ -1,0 +1,13 @@
+<div class="l-search_results">
+  <div class="l-constrained">
+    <h1 class="l-search-results__heading">Advisors matching my requirements <span class="l-search-results__heading-span">(219 matches)</span></h1>
+
+    <a href="/shortlist" class="l-search-results__shortlist-link">My Shortlist <span class="l-search-results__shortlist-count">(3)</span></a>
+  </div>
+</div>
+
+<div class="l-constrained">
+  <%= render 'shared/initial_filter' %>
+
+  <%= render 'shared/result', items: advisor_data %>
+</div>

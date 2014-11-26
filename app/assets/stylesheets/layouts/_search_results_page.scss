@@ -1,0 +1,18 @@
+.l-search-results {
+  position: relative;
+}
+
+.l-search-results__heading {
+  @include column(9);
+  margin-top: 3.75rem;
+}
+
+.l-search-results__heading-span {
+  font-size: 1rem;
+}
+
+.l-search-results__shortlist-link {
+  @include column(3);
+  margin-top: 4.8rem;
+  text-align: right;
+}
