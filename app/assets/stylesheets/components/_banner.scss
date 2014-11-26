@@ -1,0 +1,54 @@
+$play-button-color: $mystic;
+
+%banner-text {
+  text-align: center;
+}
+
+.banner {
+  position: relative;
+  background: $ui-background-alt;
+  height: 500px;
+  
+  & svg {
+    position: absolute;
+    left: 50%;
+    margin-top: 50px;
+    margin-left: -50px;
+    width: 100px;
+
+    & circle {
+      opacity: 0.5;
+      fill: $play-button-color;
+      stroke: $play-button-color;
+    }
+
+    & path {
+      opacity: 0.8;
+      fill: $play-button-color;
+      stroke: $play-button-color;
+    }
+  }
+}
+
+.banner__heading {
+  @extend %banner-text;
+  color: $default-heading-colour;
+}
+
+.banner__tagline {
+  @extend %banner-text;
+  color: $default-text-colour;
+}
+
+.banner__list {
+  @extend .unstyled-list;
+  position: absolute;
+  bottom: $baseline-unit*3;
+  text-align: center;
+}
+
+.banner__item {
+  color: $default-text-colour;
+  display: inline-block;
+  padding: 0 $baseline-unit*3;
+}
