@@ -1,0 +1,22 @@
+$responsive: true;
+
+// reset the browsers default styles
+@import 'normalize-css/normalize.css';
+
+// add assets from Dough
+@import 'dough/assets/stylesheets/font_base64';
+@import 'dough/assets/stylesheets/lib';
+@import 'dough/assets/stylesheets/common';
+
+@import 'settings';
+@import 'base/headings';
+@import 'base/type';
+@import 'layouts/main';
+@import 'layouts/header';
+@import 'layouts/info_page';
+@import 'components/breadcrumbs';
+@import 'components/horizontal_rule';
+@import 'components/banner';
+@import 'components/filter_button';
+@import 'components/filter';
+@import 'components/info_block';
