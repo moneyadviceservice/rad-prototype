@@ -1,0 +1,35 @@
+.filter-button {
+  position: relative;
+  @include column(8);
+  @include push(2);
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  background-color: $ui-background;
+  border-radius: $ui-border-radius;
+  padding: $baseline-unit*3 $baseline-unit*12 $baseline-unit*3 0;
+  margin-top: $baseline-unit*8;
+  margin-bottom: $baseline-unit*8;
+
+  &:hover {
+    background-color: $ui-background-alt;
+    text-decoration: none;
+  }
+
+  svg {
+    position: absolute;
+    top: 40px;
+    right: $baseline-unit*4;
+    width: 40px;
+  }
+}
+
+.filter-button__heading {
+  margin: 0;
+  color: $default-heading-colour;
+}
+
+.filter-button__tagline {
+  margin: $baseline-unit 0;
+  color: $default-heading-colour;
+}
