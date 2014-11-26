@@ -4,6 +4,8 @@ gem 'rails', '4.1.8'
 gem 'dough-ruby', git: 'https://github.com/moneyadviceservice/dough.git', require: 'dough'
 gem 'bowndler', git: 'https://github.com/moneyadviceservice/bowndler.git'
 
+gem 'pry'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
