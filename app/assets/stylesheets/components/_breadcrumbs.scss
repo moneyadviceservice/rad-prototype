@@ -1,0 +1,14 @@
+.breadcrumbs {
+  background-color: $ui-background-alt;
+  padding: $baseline-unit*3 0;
+  border-bottom: $ui-border;
+}
+
+.breadcrumbs__list {
+  @include column(6);
+}
+
+.breadcrumbs__sign-in {
+  @include column(6);
+  text-align: right;
+}
