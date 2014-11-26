@@ -1,0 +1,6 @@
+.horizontal-rule {
+  @include column(12);
+  border: 0;
+  border-top: $ui-border;
+  clear: both;
+}
