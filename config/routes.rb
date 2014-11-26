@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
 
-  # first route for the show.html.erb view
   get '/', to: 'show#show'
+
+  get '/search_results', to: 'search_results#show'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
