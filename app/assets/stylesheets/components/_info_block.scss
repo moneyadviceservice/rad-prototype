@@ -1,0 +1,20 @@
+.info-block {
+  @include column(12);
+  margin: $baseline-unit*4 0;
+}
+
+.info-block__heading {
+  @include column(12);
+}
+
+.info-block__image {
+  @include column(6);
+  float: left;
+  background-color: $ui-background-alt;
+  height: 360px;
+}
+
+.info-block__text {
+  @include column(6);
+  float: right;
+}
