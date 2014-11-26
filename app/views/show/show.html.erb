@@ -1,41 +1,37 @@
-<%= render 'shared/breadcrumbs' %>
-
-<main role="main" class="l-main">
-  <div class="banner">
-    <div class="l-constrained">
-      <h1 class="banner__heading">Regulated financial advice protects you under consumer law.</h1>
-      <p class="banner__tagline">An authorised retirement advisor can help you make the right financial decisions</p>
-
-      <%= render 'shared/play_button.html.erb' %>
-
-      <ul class="banner__list">
-        <li class="banner__item">Get protected under consumer law</li>
-        <li class="banner__item">Find advisors matched to your needs</li>
-        <li class="banner__item">Access all products in the market</li>
-      </ul>
-    </div>
-  </div>
-
+<div class="banner">
   <div class="l-constrained">
-    <a class="filter-button">
-      <h2 class="filter-button__heading">Browse advisors who match your specific needs</h2>
-      <p class="filter-button__tagline">Your details are strictly confidential and will not be shared</p>
-      <%= render 'shared/down_arrow' %>
-    </a>
+    <h1 class="banner__heading">Regulated financial advice protects you under consumer law.</h1>
+    <p class="banner__tagline">An authorised retirement advisor can help you make the right financial decisions</p>
 
-    <hr class="horizontal-rule">
+    <%= render 'shared/play_button.html.erb' %>
 
-    <h2 class="l-info-page__heading">Why get an authorised advisor</h2>
-
-    <%= render 'shared/info_block' %>
-    <%= render 'shared/info_block' %>
-    <%= render 'shared/info_block' %>
-
-    <div class="l-info-page__filter">
-      <h2>Browse for advisors who match your specific needs</h2>
-      <p>Your details are strictly confidential and will not be shared</p>
-
-      <%= render 'shared/initial_filter' %>
-    </div>
+    <ul class="banner__list">
+      <li class="banner__item">Get protected under consumer law</li>
+      <li class="banner__item">Find advisors matched to your needs</li>
+      <li class="banner__item">Access all products in the market</li>
+    </ul>
   </div>
-</main>
+</div>
+
+<div class="l-constrained">
+  <a class="filter-button">
+    <h2 class="filter-button__heading">Browse advisors who match your specific needs</h2>
+    <p class="filter-button__tagline">Your details are strictly confidential and will not be shared</p>
+    <%= render 'shared/down_arrow' %>
+  </a>
+
+  <hr class="horizontal-rule">
+
+  <h2 class="l-info-page__heading">Why get an authorised advisor</h2>
+
+  <%= render 'shared/info_block' %>
+  <%= render 'shared/info_block' %>
+  <%= render 'shared/info_block' %>
+
+  <div class="l-info-page__filter">
+    <h2>Browse for advisors who match your specific needs</h2>
+    <p>Your details are strictly confidential and will not be shared</p>
+
+    <%= render 'shared/initial_filter' %>
+  </div>
+</div>

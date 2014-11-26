@@ -8,6 +8,10 @@
 </head>
 <body>
   <%= render 'shared/header' %>
-  <%= yield %>
+  <%= render 'shared/breadcrumbs' %>
+
+  <main role="main" class="l-main">
+    <%= yield %>
+  </main>
 </body>
 </html>

@@ -1,6 +1,8 @@
 <div class="breadcrumbs">
   <div class="l-constrained">
     <a class="breadcrumbs__list">Work, Pensions and Retirement</a>
-    <a class="breadcrumbs__sign-in" href="">Advisor sign in</a>
+    <% if display_advisor_sign_in? %> 
+      <a class="breadcrumbs__sign-in" href="">Advisor sign in</a>
+    <% end %>
   </div>
 </div>
