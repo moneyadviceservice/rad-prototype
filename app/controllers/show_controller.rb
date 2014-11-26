@@ -8,4 +8,10 @@ class ShowController < ApplicationController
   end
 
   helper_method :display_advisor_sign_in?
+
+  def display_search_results_total?
+    true
+  end
+
+  helper_method :display_search_results_total?
 end

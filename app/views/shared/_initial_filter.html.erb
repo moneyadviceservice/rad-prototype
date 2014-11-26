@@ -20,8 +20,10 @@
     <input type="text" placeholder="Enter postcode or town name"/>
   </div>
 
-  <div class="l-info-page__filter-total">
-    <p class="filter__total"><span class="filter__total-label">2800</span> matching advisors</p>
-    <button class="filter__button">Review my matches</button>
-  </div>
+  <% if display_search_results_total? %>
+    <div class="l-info-page__filter-total">
+      <p class="filter__total"><span class="filter__total-label">2800</span> matching advisors</p>
+      <a class="button filter__button" href="/search_results">Review my matches</a>
+    </div>
+  <% end %>
 </form>
