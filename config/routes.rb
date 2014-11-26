@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
   get '/advisor_profile', to: 'advisors#show'
 
+  get '/shortlist', to: 'shortlist#show'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
