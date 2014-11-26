@@ -1,21 +1,19 @@
 <div class="result">
   <img src="" class="result__image" />
 
-  <% items.each do |item| %>
-    <div class="result__info-container">
-      <h2 class="result__heading"><%= item.advisor_name %></h2>
-      <p class="result__auth-text"><%= item.advisor_number %></p>
+  <div class="result__info-container">
+    <h2 class="result__heading"><%= result[:advisor_name] %></h2>
+    <p class="result__auth-text"><%= result[:advisor_number] %></p>
 
-      <div class="result__match-graph">
-        <p class="result__match-location"><%= item.location %></p>
-        <div class="result__match-graph-bg"></div>
-        <div class="result__match-graph-fg"></div>
-        <div class="result__match-graph-text"><% item.percentage_match %></div>
-        <a href="" class="result__match-link">How is this match calculated?</a>
-      </div>
-
-      <a href="/full_profile" class="button result__button">View full profile</a>
-      <a class="result__add-to-shortlist">Add to my shortlist</a>
+    <div class="result__match-graph">
+      <p class="result__match-location"><%= result[:location] %></p>
+      <div class="result__match-graph-bg"></div>
+      <div class="result__match-graph-fg result__match-graph-fg--<%= result[:percentage] %>"></div>
+      <div class="result__match-graph-text"><%= result[:percentage_match] %></div>
+      <a href="" class="result__match-link">How is this match calculated?</a>
     </div>
-  <% end %>
+
+    <a href="/advisor_profile" class="button result__button">View full profile</a>
+    <a class="result__add-to-shortlist">Add to my shortlist</a>
+  </div>
 </div>

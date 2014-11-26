@@ -40,7 +40,7 @@
 .result__match-graph-text {
   position: absolute;
   top: 60px;
-  left: 100px;
+  left: 30px;
 }
 
 .result__match-graph-bg {
@@ -55,6 +55,26 @@
   position: absolute;
   background-color: $ui-foreground;
   top: 48px;
+}
+
+.result__match-graph-fg--65 {
+  width: 65%;
+}
+
+.result__match-graph-fg--72 {
+  width: 72%;
+}
+
+.result__match-graph-fg--88 {
+  width: 88%;
+}
+
+.result__match-graph-fg--52 {
+  width: 52%;
+}
+
+.result__match-graph-fg--66 {
+  width: 66%;
 }
 
 .result__button {

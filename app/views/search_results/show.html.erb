@@ -9,5 +9,5 @@
 <div class="l-constrained">
   <%= render 'shared/initial_filter' %>
 
-  <%= render 'shared/result', items: advisor_data %>
+  <%= render partial: 'shared/result', collection: @advisor_data %>
 </div>
