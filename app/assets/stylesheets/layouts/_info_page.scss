@@ -1,0 +1,26 @@
+.l-info-page__heading {
+  @include column(12);
+  text-align: center;
+}
+
+.l-info-page__filter {
+  @include column(12);
+}
+
+.l-info-page__filter-col {
+  @include column(4);
+}
+
+.l-info-page__filter-total {
+  @include column(12);
+  border-top: $ui-border;
+  padding-top: $baseline-unit*4;
+
+  .filter__total {
+    float: left;
+  }
+
+  .filter__button {
+    float: right;
+  }
+}
