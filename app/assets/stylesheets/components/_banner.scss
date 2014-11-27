@@ -50,8 +50,7 @@ $play-button-color: $mystic;
 }
 
 .banner__item {
-  @include column(4);
+  @include column(3);
   color: $default-text-colour;
   display: inline-block;
-  padding: 0 $baseline-unit*3;
 }
