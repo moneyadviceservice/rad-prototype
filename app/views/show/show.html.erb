@@ -1,21 +1,22 @@
 <div class="banner">
   <div class="l-constrained">
-    <h1 class="banner__heading">Regulated financial advice protects you under consumer law.</h1>
-    <p class="banner__tagline">An authorised retirement advisor can help you make the right financial decisions</p>
+    <h1 class="banner__heading">We help you find regulated financial investors you can trust.</h1>
+    <p class="banner__tagline">The Money Advice Service Retirement Adviser Directory - Finding you the right financial adviser</p>
 
     <%= render 'shared/play_button.html.erb' %>
 
     <ul class="banner__list">
-      <li class="banner__item">Get protected under consumer law</li>
-      <li class="banner__item">Find advisors matched to your needs</li>
-      <li class="banner__item">Access all products in the market</li>
+      <li class="banner__item">Get the widest choice</li>
+      <li class="banner__item">In person, on the phone, or online</li>
+      <li class="banner__item">Know how much you'll pay</li>
+      <li class="banner__item">Advisers matched to your needs</li>
     </ul>
   </div>
 </div>
 
 <div class="l-constrained">
   <a class="filter-button">
-    <h2 class="filter-button__heading">Browse advisors who match your specific needs</h2>
+    <h2 class="filter-button__heading">Browse advisers who match your specific needs</h2>
     <p class="filter-button__tagline">Your details are strictly confidential and will not be shared</p>
     <%= render 'shared/down_arrow' %>
   </a>
@@ -25,11 +26,37 @@
   <h2 class="l-info-page__heading">Why get an authorised advisor</h2>
 
   <%= render 'shared/info_block' %>
-  <%= render 'shared/info_block' %>
-  <%= render 'shared/info_block' %>
+
+  <div class="info-block">
+    <h3 class="info-block__heading">Get the widest choice</h3>
+    <img src="" class="info-block__image" />
+    <div class="info-block__text">
+      <p>All the financial advisers on the Money Advice Service Directory will offer you the widest possible choice for particular products.  Some advisers are what is known as ‘independent’ which means they can offer you any product from any provider in the market.</p>
+      <p>Other advisers on the directory may choose to focus on one or two particular areas of financial advice, but will still consider products from all providers within that particular market.</p>
+    </div>
+  </div>
+
+  <div class="info-block">
+    <h3 class="info-block__heading">Find out how much you’ll pay</h3>
+    <img src="" class="info-block__image" />
+    <div class="info-block__text">
+      <p>All the financial advisers on the Money Advice Service Directory will have an initial conversation with you, or exchange emails, without obligation, so you can decide whether you wish to proceed or not.</p>
+      <p>It’s a good idea to talk to at least three advisers from different firms before deciding.  If you give them an idea of the type of advice you are looking for you can also ask for an estimate of how much the advice you need might cost.</p>
+    </div>
+  </div>
+
+  <div class="info-block">
+    <h3 class="info-block__heading">In person meetings, telephone and on the internet</h3>
+    <img src="" class="info-block__image" />
+    <div class="info-block__text">
+      <p>These days you don’t always have to meet your financial adviser in person.  Many advisers offer advice over the telephone or even by video conferencing such as Skype.  Sometimes (not always), services offered this way can be cheaper. Advisers on this directory that offer advice by these other methods are still regulated and the advice they give is still fully protected.</p>
+      <p>If you do decide you want to see someone local, you can also find out if they offer car parking facilities and/or disabled access.</p>
+    </div>
+  </div>
+
 
   <div class="l-info-page__filter">
-  <a class="filter-button" data-target=".secondary-filter">
+  <a class="filter-button">
     <h2 class="filter-button__heading">Browse advisors who match your specific needs</h2>
     <p class="filter-button__tagline">Your details are strictly confidential and will not be shared</p>
     <%= render 'shared/down_arrow' %>
