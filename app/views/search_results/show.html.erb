@@ -7,7 +7,9 @@
 </div>
 
 <div class="l-constrained">
-  <%= render 'shared/initial_filter' %>
+  <% if display_search_filter? %>
+    <%= render 'shared/initial_filter' %>
+  <% end %>
 
   <%= render partial: 'shared/result', collection: @advisor_data %>
 

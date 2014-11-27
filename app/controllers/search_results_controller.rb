@@ -15,6 +15,12 @@ class SearchResultsController < ApplicationController
     @advisor_data = advisor_data
   end
 
+  def display_search_filter?
+    false
+  end
+
+  helper_method :display_search_filter?
+
   def display_advanced_options?
     true
   end
