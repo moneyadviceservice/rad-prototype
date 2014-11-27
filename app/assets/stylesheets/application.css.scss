@@ -14,11 +14,14 @@ $responsive: true;
 @import 'base/type';
 @import 'base/forms';
 
+@import 'helpers/states';
+
 @import 'layouts/main';
 @import 'layouts/header';
 @import 'layouts/info_page';
 @import 'layouts/search_results_page';
 @import 'layouts/profile';
+@import 'layouts/shortlist';
 
 @import 'components/breadcrumbs';
 @import 'components/horizontal_rule';
@@ -27,3 +30,4 @@ $responsive: true;
 @import 'components/filter';
 @import 'components/info_block';
 @import 'components/result';
+@import 'components/pagination';

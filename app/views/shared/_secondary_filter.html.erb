@@ -1,0 +1,41 @@
+<div class="secondary-filter l-secondary-filter">
+  <div class="l-secondary-filter__cols">
+    <h3>I need advice with</h3>
+    <p class="secondary-filter__checkbox-text"><input type="checkbox" class="js-checkbox__postcode" data-target=".js-pension-slider" /> my pensions pot and savings</p>
+
+    <div class="js-pension-slider secondary-filter__pensions-slider">
+      <p>is approximately:</p>
+      <input type="range" min="0" max="150000" />
+    </div>
+
+    <p class="secondary-filter__checkbox-text"><input type="checkbox" /> transferring my current or previous pensions</p>
+    <p class="secondary-filter__checkbox-text"><input type="checkbox" /> long term care costs</p>
+    <p class="secondary-filter__checkbox-text"><input type="checkbox" /> accessing the equity in my property</p>
+  </div>
+
+  <div class="l-secondary-filter__cols">
+    <h3>I'd like advice</h3>
+
+    <p class="secondary-filter__checkbox-text">
+    <input type="radio" name="contact_method" class="js-checkbox__postcode" data-target=".js-filter__postcode"/> in person
+    </p>
+    <input type="text" class="secondary-filter__post-code js-filter__postcode" placeholder="Enter post code or town"/>
+
+    <p class="secondary-filter__checkbox-text">
+      <input type="radio" name="contact_method"/> over the telephone
+    </p>
+
+    <p class="secondary-filter__checkbox-text">
+      <input type="radio" name="contact_method" data-target=".js-filter__postcode--both"/> both in person and over the phone
+    </p>
+
+    <input type="text" class="secondary-filter__post-code js-filter__postcode--both" placeholder="Enter post code or town"/>
+  </div>
+
+  <% if display_search_results_total? %>
+    <div class="l-secondary-filter__total">
+      <p class="filter__total"><span class="filter__total-label">2800</span> matching advisors</p>
+      <a class="button secondary-filter__button" href="/search_results">Review my matches</a>
+    </div>
+  <% end %>
+</div>

@@ -14,4 +14,10 @@ class ShowController < ApplicationController
   end
 
   helper_method :display_search_results_total?
+  
+  def display_advanced_options?
+    false
+  end
+
+  helper_method :display_advanced_options?
 end

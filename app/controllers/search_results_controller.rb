@@ -14,6 +14,12 @@ class SearchResultsController < ApplicationController
   def show
     @advisor_data = advisor_data
   end
+
+  def display_advanced_options?
+    true
+  end
+
+  helper_method :display_advanced_options?
   
   private
 

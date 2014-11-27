@@ -1,0 +1,9 @@
+.pagination {
+  @extend .unstyled-list;
+  float: left;
+
+  > li {
+    display: inline-block;
+    margin: 0 $baseline-unit*4;
+  }
+}

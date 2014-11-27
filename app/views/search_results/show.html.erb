@@ -10,4 +10,15 @@
   <%= render 'shared/initial_filter' %>
 
   <%= render partial: 'shared/result', collection: @advisor_data %>
+
+  <ul class="pagination">
+    <li><a href="">Previous</a></li>
+    <li><a href="">1</a></li>
+    <li><a href="">2</a></li>
+    <li><a href="">3</a></li>
+    <li><a href="">4</a></li>
+    <li><a href="">Next</a></li>
+  </ul>
+
+  <a href="/shortlist" class="l-search-results__shortlist-link-bottom">My Shortlist <span class="l-search-results__shortlist-count">(3)</span></a>
 </div>

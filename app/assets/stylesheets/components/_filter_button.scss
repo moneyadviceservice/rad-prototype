@@ -3,6 +3,7 @@
   @include column(8);
   @include push(2);
   display: block;
+  clear: both;
   cursor: pointer;
   text-align: center;
   background-color: $ui-background;

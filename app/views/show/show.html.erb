@@ -29,9 +29,12 @@
   <%= render 'shared/info_block' %>
 
   <div class="l-info-page__filter">
-    <h2>Browse for advisors who match your specific needs</h2>
-    <p>Your details are strictly confidential and will not be shared</p>
+  <a class="filter-button" data-target=".secondary-filter">
+    <h2 class="filter-button__heading">Browse advisors who match your specific needs</h2>
+    <p class="filter-button__tagline">Your details are strictly confidential and will not be shared</p>
+    <%= render 'shared/down_arrow' %>
+  </a>
 
-    <%= render 'shared/initial_filter' %>
+    <%= render 'shared/secondary_filter' %>
   </div>
 </div>

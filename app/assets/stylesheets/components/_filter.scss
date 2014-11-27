@@ -3,6 +3,62 @@
   background-color: $ui-background-alt;
 }
 
+.filter__total {
+  margin-top: $baseline-unit*2;
+  float: left;
+}
+
 .filter__total-label {
   font-size: 4rem;
+  line-height: 1;
+}
+
+.filter__advanced-options {
+  margin-bottom: $baseline-unit*2;
+  display: inline-block;
+  float: right;
+}
+
+.secondary-filter {
+  clear: both;
+  padding: $baseline-unit*4;
+  background-color: $ui-background-alt;
+}
+
+.secondary-filter__checkbox-text {
+  margin: $baseline-unit 0;
+}
+
+.secondary-filter__button {
+  margin-top: $baseline-unit*4;
+  float: right;
+}
+
+.secondary-filter__pensions-slider {
+  margin-left: $baseline-unit*3;
+}
+
+.secondary-filter__post-code[type="text"] {
+  line-height: 1.4;
+  height: auto;
+  padding: $baseline-unit;
+  margin: $baseline-unit;
+  margin-left: $baseline-unit*3;
+  width: 300px;
+  border: $ui-border;
+}
+
+.l-secondary-filter {
+  overflow: hidden;
+}
+
+.l-secondary-filter__cols {
+  @include column(6);
+}
+
+.l-secondary-filter__total {
+  @include column(12);
+  clear: both;
+  margin-top: $baseline-unit*4;
+  border-top: $ui-border;
 }

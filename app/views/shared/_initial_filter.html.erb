@@ -26,4 +26,10 @@
       <a class="button filter__button" href="/search_results">Review my matches</a>
     </div>
   <% end %>
+
+  <% if display_advanced_options? %>
+    <div class="l-info-page__filter-total">
+      <a class="filter__advanced-options" href="">Advanced Options</a>
+    </div>
+  <% end %>
 </form>
