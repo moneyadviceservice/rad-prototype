@@ -5,7 +5,9 @@
 
     <div class="js-pension-slider secondary-filter__pensions-slider">
       <p>is approximately:</p>
-      <input type="range" min="0" max="150000" />
+
+      <p>£<span class="slider-target">0</span><p>
+      <input type="range" min="0" max="150000" data-slider-target=".slider-target" />
     </div>
 
     <p class="secondary-filter__checkbox-text"><input type="checkbox" /> transferring my current or previous pensions</p>
@@ -22,7 +24,7 @@
     <input type="text" class="secondary-filter__post-code js-filter__postcode" placeholder="Enter post code or town"/>
 
     <p class="secondary-filter__checkbox-text">
-      <input type="radio" name="contact_method"/> over the telephone
+      <input type="radio" name="contact_method" data-target=""/> over the telephone
     </p>
 
     <p class="secondary-filter__checkbox-text">
@@ -34,7 +36,7 @@
 
   <% if display_search_results_total? %>
     <div class="l-secondary-filter__total">
-      <p class="filter__total"><span class="filter__total-label">2800</span> matching advisors</p>
+      <p class="filter__total"><span class="filter__total-label js-adviser-total">2800</span> matching advisors</p>
       <a class="button secondary-filter__button" href="/search_results">Review my matches</a>
     </div>
   <% end %>
