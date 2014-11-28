@@ -20,6 +20,9 @@
 }
 
 .secondary-filter {
+  z-index: 1;
+  position: relative;
+  top: -70px;
   clear: both;
   padding: $baseline-unit*4;
   background-color: $ui-background-alt;
