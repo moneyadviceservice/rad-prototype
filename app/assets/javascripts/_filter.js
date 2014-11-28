@@ -54,7 +54,7 @@ $( document ).ready(function() {
 
   // ANNUITIY PROVIDER COUNT
   $('.secondary-filter').find('input').on('change input click', function() {
-    var newTotal = getRandomInt(0, 20000);
+    var newTotal = getRandomInt(0, 2000);
     $('.js-adviser-total').html(newTotal);
   });
 
