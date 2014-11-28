@@ -10,7 +10,7 @@ $play-button-color: $mystic;
   background: asset-url('temp-bg.jpg') 0 0 no-repeat;
   background-size: cover;
   height: 500px;
-  
+
   & svg {
     position: absolute;
     left: 50%;
@@ -46,13 +46,13 @@ $play-button-color: $mystic;
   @include column(12);
   @extend .unstyled-list;
   position: relative;
-  top: 280px;
-  bottom: $baseline-unit*3;
+  top: 300px;
   text-align: center;
 }
 
 .banner__item {
   @include column(3);
   color: $default-text-colour;
+  font-weight: 500;
   display: inline-block;
 }
