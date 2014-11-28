@@ -4,6 +4,7 @@
 }
 
 .filter__total {
+  color: $default-heading-colour;
   margin-top: $baseline-unit*2;
   float: left;
 }
@@ -35,6 +36,19 @@
 .secondary-filter__button {
   margin-top: $baseline-unit*4;
   float: right;
+}
+
+.secondary-filter__heading {
+  margin-bottom: $baseline-unit*3;
+}
+
+.secondary-filter__pension-description {
+  margin-top: 0;
+}
+
+.secondary-filter__pension-total {
+  font-size: 2rem;
+  margin: 0;
 }
 
 .secondary-filter__pensions-slider {
