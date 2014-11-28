@@ -1,7 +1,7 @@
 .filter-button {
   position: relative;
-  @include column(8);
-  @include push(2);
+  @include column(6);
+  @include push(3);
   display: block;
   clear: both;
   cursor: pointer;
@@ -19,10 +19,11 @@
   }
 
   svg {
+    display: none;
     position: absolute;
     top: 40px;
-    right: $baseline-unit*4;
-    width: 40px;
+    right: 22px;
+    width: 30px;
   }
 }
 
