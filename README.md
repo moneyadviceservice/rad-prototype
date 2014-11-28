@@ -1,4 +1,4 @@
 rad-prototype
 =============
 
-Throw-away prototype for the retirement advisor directory.
+Throw-away prototype for the retirement adviser directory.
