@@ -1,4 +1,6 @@
-$play-button-color: $mystic;
+$play-button-color: #454545;
+$play-button-circle-color: #888888;
+$play-button-circle-color-hover: red;
 
 %banner-text {
   text-align: center;
@@ -12,20 +14,20 @@ $play-button-color: $mystic;
   height: 500px;
 
   & svg {
+    cursor: pointer;
     position: absolute;
     left: 50%;
     margin-top: 75px;
     margin-left: -50px;
     width: 100px;
+    opacity: 0.8;
 
     & circle {
-      opacity: 0.5;
-      fill: $play-button-color;
-      stroke: $play-button-color;
+      fill: $play-button-circle-color;
+      stroke: $play-button-circle-color;
     }
 
     & path {
-      opacity: 0.8;
       fill: $play-button-color;
       stroke: $play-button-color;
     }
