@@ -7,12 +7,14 @@ $play-button-color: $mystic;
 .banner {
   position: relative;
   background: $ui-background-alt;
+  background: asset-url('temp-bg.jpg') 0 0 no-repeat;
+  background-size: cover;
   height: 500px;
   
   & svg {
     position: absolute;
     left: 50%;
-    margin-top: 50px;
+    margin-top: 75px;
     margin-left: -50px;
     width: 100px;
 
