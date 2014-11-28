@@ -24,7 +24,11 @@ $play-button-circle-color-hover: red;
 
     & circle {
       fill: $play-button-circle-color;
-      stroke: $play-button-circle-color;
+      stroke: $play-button-color;
+      opacity: 0.2;
+      &:hover {
+        opacity: 1;
+      }
     }
 
     & path {
