@@ -17,15 +17,15 @@ $play-button-circle-color-hover: red;
     cursor: pointer;
     position: absolute;
     left: 50%;
-    margin-top: 75px;
+    margin-top: 40px;
     margin-left: -50px;
     width: 100px;
     opacity: 0.8;
 
     & circle {
-      fill: $play-button-circle-color;
+      fill: #FFFFFF;
       stroke: $play-button-color;
-      opacity: 0.2;
+      opacity: 0.6;
       &:hover {
         opacity: 1;
       }
@@ -41,6 +41,9 @@ $play-button-circle-color-hover: red;
 .banner__heading {
   @extend %banner-text;
   color: $default-heading-colour;
+  line-height: 1.4;
+  width: 700px;
+  margin: 3rem auto;
 }
 
 .banner__tagline {
@@ -53,7 +56,7 @@ $play-button-circle-color-hover: red;
   @extend .unstyled-list;
   margin-top: $baseline-unit*2;
   margin-bottom: $baseline-unit*2;
-//  text-align: center;
+  text-align: center;
 }
 
 .banner__list-container {
