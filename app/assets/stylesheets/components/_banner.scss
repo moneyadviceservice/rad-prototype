@@ -51,14 +51,20 @@ $play-button-circle-color-hover: red;
 .banner__list {
   @include column(12);
   @extend .unstyled-list;
-  position: relative;
-  top: 300px;
-  text-align: center;
+  margin-top: $baseline-unit*2;
+  margin-bottom: $baseline-unit*2;
+//  text-align: center;
+}
+
+.banner__list-container {
+  background-color: $ui-background-alt;
+  border-bottom: $ui-border;
+  border-top: $ui-border;
 }
 
 .banner__item {
   @include column(3);
+  margin-bottom: 0;
   color: $default-text-colour;
-  font-weight: 500;
   display: inline-block;
 }
