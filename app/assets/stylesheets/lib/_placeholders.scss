@@ -1,0 +1,6 @@
+// this is for when a child needs to be absolutely positioned inside the parent
+// it is explicitly called out in an extend to aid with code maintenance
+
+%position-relative {
+  position: relative;
+}
