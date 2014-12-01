@@ -1,0 +1,15 @@
+a {
+  color: $base-link-color;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $base-link-color;
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: $base-link-color;
+  }
+}
