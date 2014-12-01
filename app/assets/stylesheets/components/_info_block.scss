@@ -1,6 +1,6 @@
 .info-block {
   @include column(12);
-  margin: $baseline-unit*4 0;
+  margin: baseline-unit(4) 0;
 }
 
 .info-block__heading {
@@ -12,7 +12,7 @@
   float: left;
   background-color: $ui-background-alt;
   height: 360px;
-  margin-top: $baseline-unit*3;
+  margin-top: baseline-unit(3);
 }
 
 .info-block__image--right {

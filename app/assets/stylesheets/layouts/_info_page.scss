@@ -14,7 +14,7 @@
 .l-info-page__filter-total {
   @include column(12);
   border-top: $ui-border;
-  padding-top: $baseline-unit*4;
+  padding-top: baseline-unit(4);
 
   .filter__total {
     float: left;

@@ -5,7 +5,7 @@
 
 .filter__total {
   color: $default-heading-color;
-  margin-top: $baseline-unit*2;
+  margin-top: baseline-unit(2);
   float: left;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .filter__advanced-options {
-  margin-bottom: $baseline-unit*2;
+  margin-bottom: baseline-unit(2);
   display: inline-block;
   float: right;
 }
@@ -25,21 +25,21 @@
   position: relative;
   top: -70px;
   clear: both;
-  padding: $baseline-unit*4;
+  padding: baseline-unit(4);
   background-color: $ui-background-alt;
 }
 
 .secondary-filter__checkbox-text {
-  margin: $baseline-unit 0;
+  margin: baseline-unit(1) 0;
 }
 
 .secondary-filter__button {
-  margin-top: $baseline-unit*4;
+  margin-top: baseline-unit(4);
   float: right;
 }
 
 .secondary-filter__heading {
-  margin-bottom: $baseline-unit*3;
+  margin-bottom: baseline-unit(3);
 }
 
 .secondary-filter__heading-small-text {
@@ -57,15 +57,15 @@
 }
 
 .secondary-filter__pensions-slider {
-  margin-left: $baseline-unit*3;
+  margin-left: baseline-unit(3);
 }
 
 .secondary-filter__post-code[type="text"] {
   line-height: 1.4;
   height: auto;
-  padding: $baseline-unit;
-  margin: $baseline-unit;
-  margin-left: $baseline-unit*3;
+  padding: baseline-unit(1);
+  margin: baseline-unit(1);
+  margin-left: baseline-unit(3);
   width: 300px;
   border: $ui-border;
 }
@@ -81,6 +81,6 @@
 .l-secondary-filter__total {
   @include column(12);
   clear: both;
-  margin-top: $baseline-unit*4;
+  margin-top: baseline-unit(4);
   border-top: $ui-border;
 }

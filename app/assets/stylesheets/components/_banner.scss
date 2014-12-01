@@ -48,8 +48,8 @@ $play-button-circle-color-hover: red;
 .banner__list {
   @include column(12);
   @extend .unstyled-list;
-  margin-top: $baseline-unit*2;
-  margin-bottom: $baseline-unit*2;
+  margin-top: baseline-unit(2);
+  margin-bottom: baseline-unit(2);
   text-align: center;
 }
 

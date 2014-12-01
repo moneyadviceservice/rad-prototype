@@ -8,9 +8,9 @@
   text-align: center;
   background-color: $ui-background;
   border-radius: $ui-border-radius;
-  padding: $baseline-unit*3 0;
-  margin-top: $baseline-unit*8;
-  margin-bottom: $baseline-unit*8;
+  padding: baseline-unit(3) 0;
+  margin-top: baseline-unit(8);
+  margin-bottom: baseline-unit(8);
   z-index: 2;
 
   &:hover {
@@ -33,6 +33,6 @@
 }
 
 .filter-button__tagline {
-  margin: $baseline-unit 0;
+  margin: baseline-unit(1) 0;
   color: $default-heading-color;
 }
