@@ -39,7 +39,7 @@ $play-button-circle-color-hover: red;
 
 .banner__heading {
   @extend %banner-text;
-  color: $default-heading-colour;
+  color: $default-heading-color;
   line-height: 1.4;
   width: 700px;
   margin: 3rem auto;

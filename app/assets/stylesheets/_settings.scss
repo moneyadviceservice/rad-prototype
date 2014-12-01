@@ -1,0 +1,22 @@
+@import 'lib/colors';
+@import 'lib/mixins';
+@import 'lib/placeholders';
+@import 'lib/functions';
+
+$vertical-grid-spacing: 6;
+$base-font-size: 16;
+
+// prototype UI colors
+$ui-background: $mystic;
+$ui-background-alt: $anti-flash-white;
+
+$ui-foreground: $green-mist;
+
+$ui-border: 1px solid $mystic;
+$ui-border-radius: baseline-unit(1);
+
+$default-text-colour: $charcoal;
+$default-heading-color: $charcoal;
+$default-heading-color--negative: $anti-flash-white;
+
+
