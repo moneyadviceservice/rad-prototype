@@ -3,20 +3,41 @@
 @import 'lib/placeholders';
 @import 'lib/functions';
 
-$vertical-grid-spacing: 6;
-$base-font-size: 16;
+// KEY VARIABLES
 
-// prototype UI colors
+$vertical-grid-spacing: 6; // to define the baseline-unit (function)
+
+
+// TYPOGRAPHY
+
+$base-font-size: 16;
+$base-line-height: 1.4;
+
+$brand-font: 'museo_sans';
+$base-font-stack: $brand-font, Helvetica, Arial, sans-serif;
+
+$font-weight-light: 300;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+$base-text-color: $charcoal;
+$base-text-color--negative: $anti-flash-white;
+
+$base-heading-color: $charcoal;
+$base-heading-color--negative: $anti-flash-white;
+
+
+// APPLIED LINK COLORS
+
+$base-link-color: $charcoal;
+
+
+// APPLIED UI COLORS
+
 $ui-background: $mystic;
-$ui-background-alt: $anti-flash-white;
+$ui-background-alt: $ghost-white;
 
 $ui-foreground: $green-mist;
 
 $ui-border: 1px solid $mystic;
-$ui-border-radius: baseline-unit(1);
-
-$default-text-colour: $charcoal;
-$default-heading-color: $charcoal;
-$default-heading-color--negative: $anti-flash-white;
-
-
+$ui-border-radius: baseline-unit(0.5);
