@@ -8,7 +8,7 @@ $play-button-circle-color-hover: red;
 
 .banner {
   position: relative;
-  background: $ui-background-alt;
+  background: $base-background-color--alt;
   background-size: cover;
   height: 500px;
 
@@ -54,9 +54,9 @@ $play-button-circle-color-hover: red;
 }
 
 .banner__list-container {
-  background-color: $ui-background-alt;
-  border-bottom: $ui-border;
-  border-top: $ui-border;
+  background-color: $base-background-color--alt;
+  border-bottom: $base-border-style;
+  border-top: $base-border-style;
 }
 
 .banner__item {

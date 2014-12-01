@@ -33,11 +33,12 @@ $base-link-color: $charcoal;
 
 
 // APPLIED UI COLORS
+$base-foreground-color: $green-mist;
+$base-background-color: $mystic;
+$base-background-color--alt: $ghost-white;
 
-$ui-background: $mystic;
-$ui-background-alt: $ghost-white;
+$base-button-color: $mystic;
+$base-button-color--hover: $ghost-white;
 
-$ui-foreground: $green-mist;
-
-$ui-border: 1px solid $mystic;
-$ui-border-radius: baseline-unit(0.5);
+$base-border-style: 1px solid $mystic;
+$base-border-radius: baseline-unit(0.5);

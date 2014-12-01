@@ -1,20 +1,20 @@
 .filter-button {
-  position: relative;
+  @extend %position-relative;
   @include column(6);
   @include push(3);
   display: block;
   clear: both;
   cursor: pointer;
   text-align: center;
-  background-color: $ui-background;
-  border-radius: $ui-border-radius;
+  background-color: $base-button-color;
+  border-radius: $base-border-radius;
   padding: baseline-unit(3) 0;
   margin-top: baseline-unit(8);
   margin-bottom: baseline-unit(8);
   z-index: 2;
 
   &:hover {
-    background-color: $ui-background;
+    background-color: $base-background-color;
     text-decoration: none;
   }
 

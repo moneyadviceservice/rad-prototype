@@ -2,14 +2,14 @@
   overflow: hidden;
   margin: baseline-unit(4) 0;
   padding: baseline-unit(4);
-  background-color: $ui-background-alt;
+  background-color: $base-background-color--alt;
 }
 
 .result__image {
   float: left;
   width: 200px;
   height: 266px;
-  background-color: $ui-background;
+  background-color: $base-background-color;
   margin-right: baseline-unit(4);
 }
 
@@ -48,14 +48,14 @@
 .result__match-graph-bg {
   height: 50px;
   width: 100%;
-  background-color: $ui-background;
+  background-color: $base-background-color;
 }
 
 .result__match-graph-fg {
   height: 50px;
   width: 72%;
   position: absolute;
-  background-color: $ui-foreground;
+  background-color: $base-foreground-color;
   top: 48px;
 }
 

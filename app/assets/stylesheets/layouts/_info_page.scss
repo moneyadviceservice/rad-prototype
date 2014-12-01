@@ -13,7 +13,7 @@
 
 .l-info-page__filter-total {
   @include column(12);
-  border-top: $ui-border;
+  border-top: $base-border-style;
   padding-top: baseline-unit(4);
 
   .filter__total {

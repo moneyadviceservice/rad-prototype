@@ -1,6 +1,6 @@
 .filter {
   overflow: hidden;
-  background-color: $ui-background-alt;
+  background-color: $base-background-color--alt;
 }
 
 .filter__total {
@@ -26,7 +26,7 @@
   top: -70px;
   clear: both;
   padding: baseline-unit(4);
-  background-color: $ui-background-alt;
+  background-color: $base-background-color--alt;
 }
 
 .secondary-filter__checkbox-text {
@@ -67,7 +67,7 @@
   margin: baseline-unit(1);
   margin-left: baseline-unit(3);
   width: 300px;
-  border: $ui-border;
+  border: $base-border-style;
 }
 
 .l-secondary-filter {
@@ -82,5 +82,5 @@
   @include column(12);
   clear: both;
   margin-top: baseline-unit(4);
-  border-top: $ui-border;
+  border-top: $base-border-style;
 }
