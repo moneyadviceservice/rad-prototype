@@ -1,39 +1,18 @@
-$play-button-color: #454545;
-$play-button-circle-color: #888888;
-$play-button-circle-color-hover: red;
-
 %banner-text {
   text-align: center;
 }
 
 .banner {
-  position: relative;
+  @extend %position-relative;
   background: $base-background-color--alt;
   background-size: cover;
   height: 500px;
 
-  & svg {
-    cursor: pointer;
+  .video-play-button {
     position: absolute;
     left: 50%;
     margin-top: 40px;
     margin-left: -50px;
-    width: 100px;
-    opacity: 0.8;
-
-    & circle {
-      fill: #FFFFFF;
-      stroke: $play-button-color;
-      opacity: 0.6;
-      &:hover {
-        opacity: 1;
-      }
-    }
-
-    & path {
-      fill: $play-button-color;
-      stroke: $play-button-color;
-    }
   }
 }
 
