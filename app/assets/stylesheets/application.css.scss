@@ -1,17 +1,41 @@
+// Responsive flag
+// To force media queries to output and measurements to output in REM units. Required before all other dependencies, not required for IE8
+
 $responsive: true;
 
-// reset the browsers default styles
+
+// Reset
+// Helps to reset the browsers default styles and common annoyances
 @import 'normalize-css/normalize';
 
-// add assets from Dough
+
+// Dough pattern library
+// This includes fonts (in base64 mode) and common styles
 @import 'dough/assets/stylesheets/font_base64';
 @import 'dough/assets/stylesheets/lib';
 @import 'dough/assets/stylesheets/common';
 
+
+// Add the project specific settings file
+// This is for settings which do not rely on any previous file dependencies
+
 @import 'settings';
 
+
+// SASS library
+// Contains SASS tools that should not output any actual code when compiled.
+
+@import 'lib/colors';
+@import 'lib/mixins';
+@import 'lib/placeholders';
+@import 'lib/functions';
+@import 'lib/ui';
+
+// Base styles
+
+@import 'base/reset';
 @import 'base/headings';
-@import 'base/type';
+@import 'base/paragraph';
 @import 'base/links';
 @import 'base/forms';
 
@@ -24,11 +48,17 @@ $responsive: true;
 @import 'layouts/profile';
 @import 'layouts/shortlist';
 
+
+// Components
+// All components should be encapsulated in their own directory, named after the component class.
+// They should include an _all index file and an _settings file if they require variables.
+
 @import 'components/breadcrumbs';
-@import 'components/horizontal_rule';
 @import 'components/banner';
 @import 'components/filter_button';
 @import 'components/filter';
 @import 'components/info_block';
 @import 'components/result';
 @import 'components/pagination';
+@import 'components/video_play_button/all';
+@import 'components/button/all';
