@@ -1,0 +1,20 @@
+.video-play-button {
+  cursor: pointer;
+  width: $video-play-button-width;
+  opacity: 0.8;
+}
+
+.video-play-button__circle {
+  fill: $video-play-button-bg-color;
+  stroke: $video-play-button-border-color;
+  opacity: 0.6;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.video-play-button__triangle {
+  fill: $video-play-button-color;
+  stroke: $video-play-button-color;
+}
