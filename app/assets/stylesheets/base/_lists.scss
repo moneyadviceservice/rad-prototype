@@ -1,0 +1,8 @@
+ul,
+ol {
+  @extend %base-type-style;
+}
+
+li {
+  margin-bottom: baseline-unit(1);
+}

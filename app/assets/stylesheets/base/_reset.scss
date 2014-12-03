@@ -1,0 +1,5 @@
+body {
+  @include font-size(16);
+  font-family: $base-font-stack;
+  line-height: $base-line-height;
+}

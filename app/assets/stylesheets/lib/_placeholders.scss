@@ -4,3 +4,11 @@
 %position-relative {
   position: relative;
 }
+
+// Basic type style that is extended by both the paragraph element and lists
+// This keeps the two elements in sync
+
+%base-type-style {
+  @include font-size(17);
+  line-height: 1.5;
+}
